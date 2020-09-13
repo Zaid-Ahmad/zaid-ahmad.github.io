@@ -1,0 +1,310 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+	scroll-behavior: smooth;
+}
+
+html {
+	background-color: #eee;
+}
+
+.container {
+	background-color: #ff9800;
+	height: 130px;
+	width: 100%;
+}
+
+.container h2 {
+	font-family: 'Pacifico', cursive;
+	margin-top: -40px;
+	font-size: 35px;
+	padding: 40px;
+	padding-top: 55px;
+	color: #333;
+}
+
+.links {
+	float: right;
+	margin-top: -85px;
+}
+
+.links a { 
+	text-decoration: none;
+	padding-right: 35px;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+}
+
+#about img {
+	height: auto;
+	width: 500px;
+	margin-top: 10px;
+	margin-left: 80px;
+	border: 5px solid #ffc107;
+	border-radius: 20px;
+}
+
+#about h3 {
+	position: absolute;
+	top: 32%;
+	left: 50%;
+	font-family: 'Anton', sans-serif;
+	font-size: 50px;
+	font-weight: lighter;
+}
+
+#about h1 {
+	margin-top: -30.7%;
+	margin-left: 57%;
+	font-size: 70px;
+	font-family: 'Anton', sans-serif;
+	font-weight: bolder;
+}
+
+#about .aText p {
+	margin-left: 50%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+}
+
+#about h6 {
+	margin-top: 26%;
+	margin-left: 24.9%;
+	font-family: 'Long Cang', cursive;
+	font-size: 200px;
+	transform: rotate(50deg);
+}
+
+#about h4 {
+	margin-top: -36%;
+	margin-left: 47%;
+	font-family: 'Long Cang', cursive;
+	font-size: 110px;
+}
+
+.group {
+	margin-top: 5%;
+}
+
+
+#hobbies {
+	background-color: #ffeb3b;
+	height: 830%;
+	width: 100%;
+	margin-top: 8%;
+}
+
+#hobbies h5 {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-size: 45px;
+}
+
+#hobbies p {
+	position: absolute;
+	left: 10%;
+	font-size: 29px;
+	font-family: 'Poppins', sans-serif;
+}
+
+#hobbies .football {	
+	height: auto;
+	width: 30%;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+#hobbies .ftblCaption {
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	position: absolute;
+	top: 168%;
+	left: 12%;
+}
+
+#hobbies .reading {	
+	height: auto;
+	width: 23%;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+#hobbies .rdingCaption {
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	position: absolute;
+	top: 168%;
+	left: 45%;
+}
+
+#hobbies .biking {	
+	height: auto;
+	width: 30%;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+#hobbies .bkingCaption {
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	position: absolute;
+	top: 168%;
+	left: 78%;
+}
+
+#hobbies .coding {	
+	height: auto;
+	width: 23%;
+	margin-top: 8%;
+	margin-left: 38%;
+}
+
+#hobbies .codingCaption {
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	position: absolute;
+	top: 225%;
+	left: 43%;
+}
+
+#subjects {
+	background-color: #eee;
+	height: 500%;
+	width: 100%;
+	margin-top: 8%;
+}
+
+#subjects h5 {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-size: 45px;
+	margin-top: -7%;
+}
+
+#subjects p {
+	font-family: 'Poppins', sans-serif;
+	text-align: left;
+	font-size: 20px;
+	padding: 2%;
+}
+
+#subjects .math {	
+	height: auto;
+	width: 27%;
+	margin-top: -1%;
+	margin-left: 15%;
+}
+
+#subjects .mathCaption {
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	position: absolute;
+	top: 338%;
+	left: 21%;
+}
+
+#subjects .science {	
+	height: auto;
+	width: 30%;
+	margin-top: -5%;
+	margin-left: 13%;
+}
+
+#subjects .scienceCaption {
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	position: absolute;
+	top: 338%;
+	left: 67%;
+}
+
+#subjects .french {	
+	height: auto;
+	width: 36%;
+	margin-top: 5%;
+	margin-left: 30%;
+}
+
+#subjects .frenchCaption {
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	position: absolute;
+	top: 412%;
+	left: 44.8%
+}
+
+#futurePlans {
+	background-color: #ffeb3b;
+	height: 610%;
+	width: 100%;
+	margin-top: 50%;
+}
+
+#futurePlans h5 {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-size: 45px;
+	margin-top: -2%;
+}
+
+#futurePlans p {
+	font-family: 'Poppins', sans-serif;
+	text-align: left;
+	font-size: 20px;
+	padding: 2%;
+}
+
+#futurePlans .programming {
+	height: auto;
+	width: 30%;
+	margin-top: 0%;
+	margin-left: 13%;
+}
+
+#futurePlans .prgmingCaption {
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	position: absolute;
+	top: 528%;
+	left: 21.7%;
+}
+
+#futurePlans .exams {
+	height: auto;
+	width: 30%;
+	margin-top: 0%;
+	margin-left: 13%;
+}
+
+#futurePlans .examsCaption {
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	position: absolute;
+	top: 528%;
+	left: 65%;
+}
+
+footer {
+	background-color: #333;
+	height: 100%;
+	width: 100%;
+}
+
+footer p {
+	position: absolute;
+	top: 563%;
+	left: 43%;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-weight: lighter;
+}
